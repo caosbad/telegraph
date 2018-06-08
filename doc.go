@@ -12,4 +12,10 @@ Anyone can enjoy the simplicity of Telegraph publishing, not just Telegram users
 developers are welcome to use this Telegraph API to create bots like @Telegraph for any other
 platform, or even standalone interfaces.
 */
-package telegraph
+package telegraph // import "gitlab.com/toby3d/telegraph"
+
+import "log"
+
+func init() {
+	log.Println("This package may be outdated. See actual verison on GitLab: https://gitlab.com/toby3d/telegraph")
+}
